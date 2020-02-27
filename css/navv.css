@@ -1,0 +1,174 @@
+	.dd {
+         position: absolute;
+         display: inline-block;
+      }
+      .dd-btn {
+         padding: 15px;
+         text-align: center;
+         background: #173459;
+         border: none;
+         width: 150px;
+         color: #f8f9f9;
+      }
+      .dd-content {
+         position: absolute;
+         width: 100%;
+         box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+         height: 0px;
+         transition: height 1s;
+         overflow: hidden;
+      }
+      .dd:hover > .dd-content {
+         height: 150px;
+      }
+      .dd-content > a {
+         display: block;
+         padding: 15px;
+         text-decoration: none;
+         color: black;
+      }
+      /* autres code*/
+       * {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      body {
+         display: flex;
+         min-height: 100vh;
+         flex-direction: column;
+      }
+      main {
+         flex: 1 0 auto;
+      }
+      footer {
+         color: #fff;
+         background: #555;
+         position: relative; /* required to position the copyright at the bottom */
+         font-size: 80%;
+      }
+      .footer-copyright {
+         width: 100%;
+         height: 30px;
+         background: #111;
+         /* positions the copyright at the bottom of the footer */
+         padding: 10px;
+         position: absolute;
+         bottom: 0px;
+         left: 0px;
+      }
+      .footer-body {
+        /* margin-bottom: 40px;*/
+         padding: 15px;
+      }
+      .footer-body > div:first-child {
+         font-size: 150%;
+      }
+      .footer-body ul {
+         list-style-type: none;
+         margin: 0px;
+         padding: 0px;
+         text-align: center;
+
+      }
+      .footer-body li > a {
+         color: white;
+         text-decoration: none;
+         /*margin-bottom: 7px;*/
+      }
+      img {
+         border-radius: 50%;
+      }
+.red {
+   height: 320px;
+   width: 900px;
+   position: relative;
+   box-sizing: border-box;
+   box-shadow: 0 15px 25px rgba(0,0,0,.5);
+   border-radius: 30px;
+   background-color: gainsboro;
+   top: 50%;
+   left: 17%;
+}
+#droit, #centre {
+ display: inline-block;
+ height: 320px;
+}
+#droit {
+   background-color: transparent;
+   width: 300px;
+   float: left;
+   padding: 10px;
+   border-radius: 30px;
+}
+#centre {
+   background-color: transparent;
+   width: 600px;
+   position: relative;
+   float: right;
+   text-align: center;
+   padding: 10px;
+   text-align: center;
+}
+#fact a, #adm a,#maga a,#apropos a
+{
+   display: block;
+   color: black;
+   font-size: 20px;
+   text-align: center;
+   margin: 5px;
+   padding: 5px;
+   text-align: left;
+   text-decoration-line: none;
+}
+#fact a:hover,#adm a:hover,#maga a:hover,#apropos a:hover,
+{
+   color: red;
+   font-size: 20px;
+   text-align: left;
+   background-color: yellow;
+}
+#im,#titre
+{
+   display: inline;
+}
+.footer-copyright a
+{
+   text-decoration: none;
+   color: white;
+}
+a
+{
+   text-decoration: none;
+}
+
+#un, #de{
+   display: inline-block;
+}
+#un{
+   width: 300px;
+   text-align: justify;
+}
+#de{
+   width: 100px;
+}
+.footer-body, .ok, #si{
+   display: inline-block;
+   position: relative;
+   margin-top: 5px;
+   margin-bottom: 20px;
+}
+.ok,#si{
+   text-align: left;
+   margin-left: 350px;
+  text-decoration: none;
+}
+.ok a{
+   display: block;
+   color: white;
+}
+#sisi{
+   color: yellow;
+}

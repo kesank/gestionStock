@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    /*background-color: blanchedalmond;*/
+     background-image: url('../images/ok.jpg');
+     background-position: center;
+}
+
+header{
+    position: relative;
+    background-image: url('../images/font.jpg');
+    background-position: center;
+    background-size: cover;
+}
+header  img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav{
+    position: relative;
+    background-color: #212565;
+    border-bottom: 2px solid lightcoral;
+}
+
+nav .menu{
+    margin: 0;
+    position: relative;
+    padding: 15px;
+}
+
+nav .menu ul{
+    text-align: center;
+}
+
+nav .menu ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 1.2rem;
+    transition: -46;
+}
+
+nav ul li a:hover{
+    color: lightcoral;
+}
+
+/* pour chache le menu */
+nav .Responcive_menu{
+    display: none;
+    padding: 15px;
+}
+
+nav .Responcive_menu img{
+    width: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav .Responcive_menu ul{
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+}
+
+nav .Responcive_menu ul li{
+    margin: 15px 0;
+}
+
+@media screen and (max-width : 620px){
+    nav .menu{
+        display: none;
+    }
+
+    nav .Responcive_menu{
+        display: block;
+    }
+    nav .Responcive_menu ul{
+        display: none;
+    }
+}
